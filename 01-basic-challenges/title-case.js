@@ -1,3 +1,4 @@
+
 function TitleCase(str){
     const words = str.toLowerCase().split(' ');
 
@@ -8,6 +9,5 @@ function TitleCase(str){
     return words.join(' ');
 }
 
-const result = TitleCase("hello this is md abdul wajid ali");
-
+const result = TitleCase("hello this is muhammed abdul wajid ali here");
 console.log(result)
